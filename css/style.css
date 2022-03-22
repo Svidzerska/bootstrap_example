@@ -1,10 +1,24 @@
+body {
+  font-size: 12px; }
+
 .fixed {
   top: 150px;
-  right: 5rem;
   z-index: 999; }
 
 .picture-main {
-  height: 200px; }
+  background-image: url(../images/gray-card-750px-01.jpg); }
 
 .main_info {
   top: 10px; }
+
+.stars img {
+  width: 10px; }
+
+.message img {
+  width: 10px; }
+
+.info_detailed img {
+  width: 10px; }
+
+.warning {
+  background-color: #ffffc9; }
