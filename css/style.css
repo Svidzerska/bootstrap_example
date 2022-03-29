@@ -22,3 +22,7 @@ body {
 
 .warning {
   background-color: #ffffc9; }
+
+@media screen and (max-width: 992px) {
+  .picture-gallery {
+    position: relative !important; } }

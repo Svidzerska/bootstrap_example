@@ -9,6 +9,7 @@ body {
 
 .picture-main {
    background-image: url(../images/gray-card-750px-01.jpg);
+
 }
 
 .main_info {
@@ -29,4 +30,11 @@ body {
 
 .warning {
    background-color: rgb(255, 255, 201);
+}
+
+@media screen and (max-width: 992px) {
+   .picture-gallery {
+      position: relative!important;
+   } 
+
 }
