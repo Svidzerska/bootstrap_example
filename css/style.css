@@ -4,6 +4,20 @@ body {
 .fixed {
   top: 150px;
   z-index: 999; }
+  .fixed div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .fixed div a {
+      color: black;
+      font-weight: 700; }
+  .fixed div:first-child {
+    background-color: black; }
+    .fixed div:first-child a {
+      color: white; }
 
 .picture-main {
   background-image: url(../images/gray-card-750px-01.jpg); }
@@ -22,6 +36,8 @@ body {
 
 .warning {
   background-color: #ffffc9; }
+  .warning i {
+    color: #ffe77c; }
 
 @media screen and (max-width: 992px) {
   .picture-gallery {

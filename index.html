@@ -10,23 +10,19 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
    <title>Document</title>
    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
    <div class="container position-relative">
-      <div class="fixed position-fixed d-flex flex-column end-0 pe-5">
-         <div class="border rounded-3 border-dark mb-2"><a href="#"><img src="images/info_icon.jpg" alt="img" srcset=""
-                  class="rounded-3"></a></div>
-         <div class="border rounded-3 border-dark mb-2"><a href="#"><img src="images/nav_icon.jpg" alt="img" srcset=""
-                  class="rounded-3"></a></div>
-         <div class="border rounded-3 border-dark mb-2"><a href="#"><img src="images/star_icon.jpg" alt="img" srcset=""
-                  class="rounded-3"></a></div>
-         <div class="border rounded-3 border-dark mb-2"><a href="#"><img src="images/message.jpg" alt="img" srcset=""
-                  class="rounded-3"></a></div>
-         <div class="border rounded-3 border-dark mb-2"><a href="#"><img src="images/copy_icon.jpg" alt="img" srcset=""
-                  class="rounded-3"></a></div>
+      <div class="fixed position-fixed d-flex flex-column end-0 pe-5 fs-6">
+         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-info-circle"></i></a></div>
+         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-list"></i></a></div>
+         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-star"></i></a></div>
+         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-chat-left"></i></a></div>
+         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-stickies"></i></a></div>
       </div>
       <div class="tags ps-5 text-secondary bg-light d-flex flex-sm-row flex-column fs-4">
          <p class="pe-3 pt-2 mt-0">Beliebt:</p>
@@ -70,13 +66,13 @@
                            <p class="pe-2 text-decoration-underline m-0">8 Bewertungen</p>
                         </a>
                         <a href="#" class="text-black message">
-                           <p class="text-decoration-underline m-0"><img src="images/message_icon_single.png" alt=""> 16
+                           <p class="text-decoration-underline m-0 ps-3"><i class="bi bi-chat-left pe-1"></i> 16
                               gestellte Fragen</p>
                         </a>
                      </div>
                      <div>
-                        <button class="bg-black rounded-3 text-white border-0 p-1">
-                           Sorte merken
+                        <button class="bg-black rounded-3 text-white border-0 p-2">
+                           <i class="bi bi-heart"></i> Sorte merken
                         </button>
                      </div>
                   </div>
@@ -94,8 +90,7 @@
                      <div class="d-flex flex-row justify-content-start pt-4">
                         <div class="pe-4">
                            <p>
-                              <span class="fw-bolder">THC: 22%</span> (220 mg/g) <a href="#"><img
-                                    src="images/icon_info_black.jpg" alt="" srcset=""></a>
+                              <span class="fw-bolder">THC: 22%</span> (220 mg/g) <i class="bi bi-info-circle"></i>
                            </p>
                            <div class="row d-flex flex-row w-100 m-0">
                               <p class="border-bottom border-dark border-2 col-2 me-1"></p>
@@ -107,8 +102,7 @@
                         </div>
                         <div>
                            <p>
-                              <span class="fw-bolder">CBD: &lt;1% </span> (&lt;10 mg/g) <a href="#"><img
-                                    src="images/icon_info_black.jpg" alt="" srcset=""></a>
+                              <span class="fw-bolder">CBD: &lt;1% </span> (&lt;10 mg/g) <i class="bi bi-info-circle"></i>
                            </p>
                            <div class="row d-flex flex-row w-100 m-0">
                               <p class="border-bottom border-dark border-2 col-2 me-1"></p>
@@ -121,32 +115,32 @@
                      </div>
                      <div class="d-flex flex-column flex-sm-column flex-md-row justify-content-lg-start justify-content-md-between align-items-md-end">
                         <div class="pe-3">
-                           <p class="fw-bolder">Genetic <img src="images/icon_info_black.jpg" alt=""></p>
-                           <p class="border rounded-3"><img src="" alt=""> Hybrid</p>
+                           <p class="fw-bolder">Genetic <i class="bi bi-info-circle"></i></p>
+                           <p class="border rounded-3"><i class="bi bi-vinyl-fill"></i> Hybrid</p>
                         </div>
                         <div class="pe-3">
-                           <p class="fw-bolder">Behandlung <img src="images/icon_info_black.jpg" alt=""></p>
+                           <p class="fw-bolder">Behandlung <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><img src="" alt=""> Bestrahit</p>
                         </div>
                         <div class="pe-3">
-                           <p class="warning"><img src="" alt=""> Nicht zur inhalation geeignet</p>
+                           <p class="warning pe-3"><i class="bi bi-exclamation-triangle pe-2 ps-2"></i> Nicht zur inhalation geeignet</p>
                         </div>
                      </div>
                      <div class="d-flex flex-column flex-sm-column flex-md-row justify-content-lg-start justify-content-md-between justify-content-sm-start">
                         <div class="pe-3">
-                           <p class="fw-bolder">Herkunft <img src="images/icon_info_black.jpg" alt=""></p>
+                           <p class="fw-bolder">Herkunft <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><img src="" alt="">Kanada</p>
                         </div>
                         <div class="pe-3">
-                           <p class="fw-bolder">Hersteller <img src="images/icon_info_black.jpg" alt=""></p>
+                           <p class="fw-bolder">Hersteller <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><img src="" alt="">Four 20 Pharma</p>
                         </div>
                         <div class="pe-3">
-                           <p class="fw-bolder">Kultivierung <img src="images/icon_info_black.jpg" alt=""></p>
+                           <p class="fw-bolder">Kultivierung <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><img src="" alt="">Terra Verde (Portugal)</p>
                         </div>
                         <div class="pe-3">
-                           <p class="fw-bolder">Markt <img src="images/icon_info_black.jpg" alt=""></p>
+                           <p class="fw-bolder">Markt <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><img src="" alt="">Medizinisch</p>
                         </div>
                      </div>

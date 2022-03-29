@@ -5,6 +5,25 @@ body {
 .fixed  {
    top: 150px;
    z-index: 999;
+   div {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      a {
+         color: black;
+         font-weight: 700;
+      }
+   }
+
+   div:first-child {
+      background-color: black;
+      a {
+         color: white;
+      }
+   }
 }
 
 .picture-main {
@@ -30,11 +49,15 @@ body {
 
 .warning {
    background-color: rgb(255, 255, 201);
+   i {
+      color: rgb(255, 231, 124);
+   }
+   
 }
+
 
 @media screen and (max-width: 992px) {
    .picture-gallery {
       position: relative!important;
    } 
-
 }
