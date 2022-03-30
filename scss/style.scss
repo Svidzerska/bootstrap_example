@@ -27,9 +27,29 @@ body {
    }
 }
 
-.picture-main {
-   background-image: url(../images/gray-card-750px-01.jpg);
-   height: ;
+.picture-background {
+   height: 400px;
+   z-index: -999;
+}
+
+.main_text {
+   transform: translateY(-400px);
+   .nav {
+      height: 180px;
+   }
+
+   .picture-main {
+      .lightbox {
+         width: 400px;
+         height: 400px;
+         border-radius: 20px; 
+      }
+
+      .lightbox-small {
+         width: 70px;
+         height: 70px;
+      }
+   }
 }
 
 .main_info {
@@ -37,16 +57,15 @@ body {
 }
 
 .stars img {
-   width: 10px; 
+   width: 20px;
 }
 
 .message img {
    width: 10px;
+   
 }
 
-.info_detailed img {
-   width: 10px;
-}
+
 
 .warning {
    background-color: rgb(255, 255, 201);
@@ -54,11 +73,4 @@ body {
       color: rgb(255, 231, 124);
    }
    
-}
-
-
-@media screen and (max-width: 992px) {
-   .picture-gallery {
-      position: relative!important;
-   } 
 }
