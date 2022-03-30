@@ -6,12 +6,13 @@ body {
    top: 150px;
    z-index: 999;
    div {
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
+
       a {
          color: black;
          font-weight: 700;
@@ -28,7 +29,7 @@ body {
 
 .picture-main {
    background-image: url(../images/gray-card-750px-01.jpg);
-
+   height: ;
 }
 
 .main_info {
