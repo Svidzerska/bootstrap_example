@@ -19,10 +19,14 @@
    <div class="container position-relative">
       <div class="fixed position-fixed d-flex flex-column end-0 pe-5 fs-6">
          <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-info-circle"></i></a></div>
-         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-list"></i></a></div>
-         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-star"></i></a></div>
-         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-chat-left"></i></a></div>
-         <div class="border rounded-3 border-dark border-2 mb-2"><a href="#"><i class="bi bi-stickies"></i></a></div>
+         <div class="border rounded-3 border-dark border-2 mb-2 bg-white"><a href="#"><i class="bi bi-list"></i></a>
+         </div>
+         <div class="border rounded-3 border-dark border-2 mb-2 bg-white"><a href="#"><i class="bi bi-star"></i></a>
+         </div>
+         <div class="border rounded-3 border-dark border-2 mb-2 bg-white"><a href="#"><i
+                  class="bi bi-chat-left"></i></a></div>
+         <div class="border rounded-3 border-dark border-2 mb-2 bg-white"><a href="#"><i class="bi bi-stickies"></i></a>
+         </div>
       </div>
       <div class="tags ps-5 text-secondary bg-light d-flex flex-sm-row flex-column fs-4">
          <p class="pe-3 pt-2 mt-0">Beliebt:</p>
@@ -36,20 +40,34 @@
             <div class="routes pb-5 ps-5 text-dark pt-3">
                <p class="fw-bolder fs-5">Start &rarr; Biuten &rarr; Medizinisch &rarr; 420 Natural 22/1</p>
             </div>
-            <div class="row position-relative d-flex flex-md-column flex-lg-row">
+            <div class="row position-relative d-flex flex-md-column flex-lg-row w-100 m-auto">
                <div class="d-md-none d-sm-none d-none d-lg-block col-md-4 col-sm-5 col-5 ">
                </div>
+
+
                <div class="picture-gallery col-md-4 col-sm-5 col-10 ps-5 pe-md-5 pb-5 pb-lg-0 position-absolute top-0">
-                  <div class="picture-big mb-3">
-                     <img src="images/square.jpg" alt="" srcset="" class="w-100">
-                  </div>
-                  <p class="mb-0">Weitere Bilder</p>
-                  <div class="row pictures-small d-flex flex-row justify-content-start">
-                     <div class="col-3"><img src="images/square.jpg" alt="" srcset="" class="w-100"></div>
-                     <div class="col-3"><img src="images/square.jpg" alt="" srcset="" class="w-100"></div>
-                     <div class="col-3"><img src="images/square.jpg" alt="" srcset="" class="w-100"></div>
+                  <div class="row shadow-5">
+                     <div class="col-12 mb-1">
+                        <div class="lightbox">
+                           <img src="images/square.jpg" alt="" srcset="" class="active w-100">
+                           <p class="mb-0 pt-4">Weitere Bilder</p>
+                        </div>
+                     </div>
+                     <div class="col-3 mt-1">
+                        <img src="images/square.jpg" alt="" srcset="" class="active w-100">
+                     </div>
+                     <div class="col-3 mt-1">
+                        <img src="images/square.jpg" alt="" srcset="" class="w-100">
+                     </div>
+                     <div class="col-3 mt-1">
+                        <img src="images/square.jpg" alt="" srcset="" class="w-100">
+                     </div>
+                     <div class="col-3 mt-1">
+                     </div>
                   </div>
                </div>
+
+
                <div class="col-md-8 col-sm-7 col-12 ps-md-5 ps-sm-1 pb-3 fs-5">
                   <div class="info_named">
                      <p class="bg-light border-1 border-light rounded-3 text-secondary ps-2 w-25 m-0">Gorilla Glue</p>
@@ -70,50 +88,50 @@
                               gestellte Fragen</p>
                         </a>
                      </div>
-                     <div>
-                        <button class="bg-black rounded-3 text-white border-0 p-2">
-                           <i class="bi bi-heart"></i> Sorte merken
-                        </button>
-                     </div>
+                     <button class="bg-black rounded-3 text-white border-0 p-2">
+                        <i class="bi bi-heart"></i> Sorte merken
+                     </button>
                   </div>
                </div>
             </div>
 
          </div>
 
-         <div class="main_info mt-sm-0 mt-5">
-            <div class="row pt-sm-3 pt-5">
+         <div class="main_info">
+            <div class="row mt-sm-3">
                <div class="col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-0 ps-5">
                </div>
                <div class="col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5">
                   <div class="info_detailed fs-5">
-                     <div class="d-flex flex-row justify-content-start pt-4">
-                        <div class="pe-4">
+                     <div class="d-flex mt-4 mb-3">
+                        <div class="pe-5">
                            <p>
                               <span class="fw-bolder">THC: 22%</span> (220 mg/g) <i class="bi bi-info-circle"></i>
                            </p>
-                           <div class="row d-flex flex-row w-100 m-0">
-                              <p class="border-bottom border-dark border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-dark border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-dark border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-dark border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-2 col-2"></p>
-                           </div>
+                           <ul class="row d-flex flex-row justify-content-between w-100 m-0 p-0 list-unstyled">
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-3 col-2"></li>
+                           </ul>
                         </div>
                         <div>
                            <p>
-                              <span class="fw-bolder">CBD: &lt;1% </span> (&lt;10 mg/g) <i class="bi bi-info-circle"></i>
+                              <span class="fw-bolder">CBD: &lt;1% </span> (&lt;10 mg/g) <i
+                                 class="bi bi-info-circle"></i>
                            </p>
-                           <div class="row d-flex flex-row w-100 m-0">
-                              <p class="border-bottom border-dark border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-2 col-2 me-1"></p>
-                              <p class="border-bottom border-2 col-2"></p>
-                           </div>
+                           <ul class="row d-flex flex-row justify-content-between w-100 m-0 p-0 list-unstyled">
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-dark border-3 col-2 me-1"></li>
+                              <li class="border-bottom border-3 col-2"></li>
+                           </ul>
                         </div>
                      </div>
-                     <div class="d-flex flex-column flex-sm-column flex-md-row justify-content-lg-start justify-content-md-between align-items-md-end">
+                     <div
+                        class="d-flex flex-column flex-sm-column flex-md-row justify-content-lg-start justify-content-md-between align-items-md-end">
                         <div class="pe-3">
                            <p class="fw-bolder">Genetic <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><i class="bi bi-vinyl-fill"></i> Hybrid</p>
@@ -123,10 +141,12 @@
                            <p class="border rounded-3"><img src="" alt=""> Bestrahit</p>
                         </div>
                         <div class="pe-3">
-                           <p class="warning pe-3"><i class="bi bi-exclamation-triangle pe-2 ps-2"></i> Nicht zur inhalation geeignet</p>
+                           <p class="warning pe-3"><i class="bi bi-exclamation-triangle pe-2 ps-2"></i> Nicht zur
+                              inhalation geeignet</p>
                         </div>
                      </div>
-                     <div class="d-flex flex-column flex-sm-column flex-md-row justify-content-lg-start justify-content-md-between justify-content-sm-start">
+                     <div
+                        class="d-flex flex-column flex-sm-column flex-md-row justify-content-lg-start justify-content-md-between justify-content-sm-start">
                         <div class="pe-3">
                            <p class="fw-bolder">Herkunft <i class="bi bi-info-circle"></i></p>
                            <p class="border rounded-3"><img src="" alt="">Kanada</p>
