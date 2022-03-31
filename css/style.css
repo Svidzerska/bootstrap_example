@@ -1,6 +1,3 @@
-body {
-  font-size: 12px; }
-
 .fixed {
   top: 150px;
   right: 0;
@@ -35,14 +32,7 @@ main .main-text {
   main .main-text .picture-main .lightbox-small {
     width: 70px;
     height: 70px; }
-
-.stars img {
-  width: 20px; }
-
-.message img {
-  width: 10px; }
-
-.warning {
-  background-color: #ffffc9; }
-  .warning i {
-    color: #ffe77c; }
+  main .main-text .warning {
+    background-color: #ffffc9; }
+    main .main-text .warning i {
+      color: #ffdb3a; }
