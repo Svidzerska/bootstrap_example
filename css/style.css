@@ -3,40 +3,38 @@ body {
 
 .fixed {
   top: 150px;
+  right: 0;
   z-index: 999; }
-  .fixed div {
+  .fixed li {
     width: 40px;
     height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; }
-    .fixed div a {
+    .fixed li a {
       color: black;
       font-weight: 700; }
-  .fixed div:first-child {
-    background-color: black; }
-    .fixed div:first-child a {
-      color: white; }
+  .fixed li:first-child a {
+    color: white; }
 
-.picture-background {
+main .picture-background {
   height: 400px;
   z-index: -999; }
 
-.main_text {
+main .main-text {
   transform: translateY(-400px); }
-  .main_text .nav {
+  main .main-text .nav {
     height: 180px; }
-  .main_text .picture-main .lightbox {
-    width: 400px;
-    height: 400px;
+  main .main-text .picture-main .lightbox {
+    max-width: 450px;
+    width: 30vw;
+    max-height: 450px;
+    height: 30vw;
     border-radius: 20px; }
-  .main_text .picture-main .lightbox-small {
+  main .main-text .picture-main .lightbox-small {
     width: 70px;
     height: 70px; }
-
-.main_info {
-  top: 10px; }
 
 .stars img {
   width: 20px; }
